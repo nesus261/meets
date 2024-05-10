@@ -1,0 +1,21 @@
+
+#div-meeting {
+  height: 100%;
+  width: 100%;
+}
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-auto-rows: 250px;
+    padding: 5px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  
+  video {
+    margin-right: 2px;
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    border-radius: 6px;
+  }

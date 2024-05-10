@@ -1,0 +1,38 @@
+
+.colm-1 {
+    min-width: 330px;
+    min-height: 89vh;
+    width: 110%;
+}
+.colm-2 {
+    min-width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-2 {
+    margin: 40px;
+    min-width: 250px;
+    max-width: 420px;
+    width: 100%;
+}
+.container-3 {
+    margin-top: 30vh;
+}
+.container-4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20%;
+    min-height: 300px;
+    padding: 10%;
+}
+
+@media (max-width: 600px) {
+    .container-1 {
+        flex-wrap: wrap;
+    }
+}
